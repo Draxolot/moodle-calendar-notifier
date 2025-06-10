@@ -2,7 +2,7 @@
 ============================
 Get notified of your moodle upcomming deadlines
 
-### ✅ Prerequisites
+## ✅ Prerequisites
 Make sure you have Python 3 installed. Then install the necessary dependencies with:
 ```bash
 pip install -r requirements.txt
