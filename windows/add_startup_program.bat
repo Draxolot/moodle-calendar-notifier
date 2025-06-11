@@ -11,4 +11,3 @@ echo python "%REPO_PATH%\windows\main.py"
 ) > "%STARTUP_FOLDER%\moodle-calendar-notifier.bat"
 
 echo Moodle Calendar Notifier has been successfully added to startup programs
-pause
