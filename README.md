@@ -13,8 +13,8 @@ Modify in ***.env*** the value of the variable ***CALENDAR_URL*** with your mood
 You can get this URL here: https://moodle.epita.fr/calendar/export.php
 
 ## 🚀 Run at startup
-To add your script to the boot programs, simply go to the folder corresponding to your operating system.
-Then, modify the indicated field in ***add_to_boot_programs*** file with your moodle-calendar-notifier repository path.
+To add your script to the startup programs, simply go to the folder corresponding to your operating system.
+Then, modify the indicated variable in ***add_to_startup_programs*** file with your moodle-calendar-notifier repository path.
 Finally, execute the program.
 
 ## 🎉 Et voilà
