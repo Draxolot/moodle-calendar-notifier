@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Modify here the script path
-SCRIPT_PATH="/repoPath/linux/main.py"
+# Modify REPO_PATH variable with the absolute repository path
+REPO_PATH="/repoPath"
 
 PYTHON_PATH=$(which python3)
 
@@ -13,12 +13,12 @@ mkdir -p "$AUTOSTART_DIR"
 cat > "$DESKTOP_FILE" <<EOL
 [Desktop Entry]
 Type=Application
-Exec=$PYTHON_PATH $SCRIPT_PATH
+Exec=$PYTHON_PATH $REPO_PATH/linux/main.py
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
-Name=MonScriptPython
-Comment=Launches moodle calendar notifier at boot
+Name=Moodle Calendar Notifier
+Comment=Launches moodle calendar notifier at startup
 EOL
 
-echo "Script successfully added to boot programs at $DESKTOP_FILE"
+echo "Script successfully added to startup programs at $DESKTOP_FILE"
